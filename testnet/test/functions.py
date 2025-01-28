@@ -3,6 +3,7 @@ import logging
 import re
 import requests
 from .schemas import PuzzleSchema, PuzzleHuntPiecesSchema
+import pandas as pd
 
 logger = logging.getLogger(__name__)
 
